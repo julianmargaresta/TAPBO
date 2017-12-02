@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="454.0" prefWidth="1132.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fastfood.TampilanUtama2Controller">
+   <children>
+      <ImageView fitHeight="453.0" fitWidth="1132.0" layoutX="2.0" layoutY="1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../gambar/pexels-photo-70497.jpeg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="-5.0" layoutY="1.0" opacity="0.83" prefHeight="453.0" prefWidth="795.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="49.0" fitWidth="74.0" layoutX="14.0" layoutY="191.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../gambar/photo.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="63.0" fitWidth="74.0" layoutX="14.0" layoutY="277.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../gambar/Resep-Chicken-Katsu.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="74.0" layoutX="14.0" layoutY="107.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../gambar/stock-photo-club-sandwich-with-chicken-breast-bacon-tomato-cucumber-and-herbs-520013728.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="63.0" fitWidth="74.0" layoutX="14.0" layoutY="364.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../gambar/zp_P7190214.jpg" />
+               </image>
+            </ImageView>
+            <JFXCheckBox fx:id="M1" layoutX="93.0" layoutY="105.0" prefHeight="27.0" prefWidth="243.0" text="1. Honoka Club Sandwich">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="M2" layoutX="92.0" layoutY="192.0" prefHeight="27.0" prefWidth="225.0" text="2. Minalinscy Omurice">
+               <font>
+                  <Font name="Bernard MT Condensed" size="21.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="M3" layoutX="92.0" layoutY="279.0" prefHeight="27.0" prefWidth="176.0" text="3. Umi Katsu">
+               <font>
+                  <Font name="Bernard MT Condensed" size="21.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="M4" layoutX="92.0" layoutY="366.0" prefHeight="27.0" prefWidth="176.0" text="4. Rin Yakisoba">
+               <font>
+                  <Font name="Bernard MT Condensed" size="21.0" />
+               </font>
+            </JFXCheckBox>
+            <Text layoutX="155.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP.55.000" wrappingWidth="83.9453125">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="155.0" layoutY="249.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP.60.000" wrappingWidth="83.9453172958174">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="155.0" layoutY="336.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP.80.000" wrappingWidth="83.94531172029974">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="148.0" layoutY="422.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP.40.000" wrappingWidth="83.94531494379044">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </Text>
+            <TextField alignment="CENTER" layoutX="13.0" layoutY="14.0" prefHeight="63.0" prefWidth="303.0" text="FOOD MENU">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </TextField>
+            <JFXTextField fx:id="Jumlah1" layoutX="325.0" layoutY="134.0" maxWidth="110.0" minWidth="74.0" prefHeight="40.0" prefWidth="74.0" promptText="Jumlah">
+               <font>
+                  <Font name="Bernard MT Condensed" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="Jumlah2" layoutX="325.0" layoutY="218.0" maxWidth="110.0" minWidth="74.0" prefHeight="40.0" prefWidth="74.0" promptText="Jumlah">
+               <font>
+                  <Font name="Bernard MT Condensed" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="Jumlah3" layoutX="325.0" layoutY="293.0" maxWidth="110.0" minWidth="74.0" prefHeight="40.0" prefWidth="74.0" promptText="Jumlah">
+               <font>
+                  <Font name="Bernard MT Condensed" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="Jumlah4" layoutX="325.0" layoutY="377.0" maxWidth="110.0" minWidth="74.0" prefHeight="40.0" prefWidth="74.0" promptText="Jumlah">
+               <font>
+                  <Font name="Bernard MT Condensed" size="18.0" />
+               </font>
+            </JFXTextField>
+            <TextField alignment="CENTER" layoutX="436.0" layoutY="14.0" prefHeight="63.0" prefWidth="314.0" text="DRINK MENU">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </TextField>
+            <Separator layoutX="399.0" layoutY="94.0" orientation="VERTICAL" prefHeight="348.0" prefWidth="1.0" />
+            <JFXCheckBox fx:id="M5" layoutX="510.0" layoutY="110.0" prefHeight="27.0" prefWidth="243.0" text="1. Orange Juice">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="M6" layoutX="510.0" layoutY="192.0" prefHeight="27.0" prefWidth="243.0" text="2. Vanilla Ice">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="M7" layoutX="510.0" layoutY="364.0" prefHeight="27.0" prefWidth="243.0" text="4. Chocolate Ice">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </JFXCheckBox>
+            <JFXCheckBox fx:id="M8" layoutX="510.0" layoutY="280.0" prefHeight="27.0" prefWidth="243.0" text="3. Chappuchino">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </JFXCheckBox>
+            <ImageView fitHeight="49.0" fitWidth="74.0" layoutX="436.0" layoutY="110.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../gambar/Mango-juice.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="74.0" layoutX="436.0" layoutY="194.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../gambar/d378c0b7e887bbc6c228f36adcf2e24a.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="55.0" fitWidth="74.0" layoutX="436.0" layoutY="364.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../gambar/15a50af76d18ba12e94f935c78b39a52--dove-chocolate-death-by-chocolate.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="55.0" fitWidth="74.0" layoutX="436.0" layoutY="279.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../gambar/starbucks-iced-cappuccino-wallpaper-3.jpg" />
+               </image>
+            </ImageView>
+            <Text layoutX="566.0" layoutY="164.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP.15.000" wrappingWidth="83.9453125">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="566.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP.20.000" wrappingWidth="83.9453125">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="566.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP.17.000" wrappingWidth="83.9453125">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="566.0" layoutY="421.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RP.25.000" wrappingWidth="83.9453125">
+               <font>
+                  <Font name="Bernard MT Condensed" size="20.0" />
+               </font>
+            </Text>
+            <JFXTextField fx:id="Jumlah5" layoutX="705.0" layoutY="129.0" maxWidth="110.0" minWidth="74.0" prefHeight="40.0" prefWidth="74.0" promptText="Jumlah">
+               <font>
+                  <Font name="Bernard MT Condensed" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="Jumlah6" layoutX="705.0" layoutY="211.0" maxWidth="110.0" minWidth="74.0" prefHeight="40.0" prefWidth="74.0" promptText="Jumlah">
+               <font>
+                  <Font name="Bernard MT Condensed" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="Jumlah7" layoutX="705.0" layoutY="290.0" maxWidth="110.0" minWidth="74.0" prefHeight="40.0" prefWidth="74.0" promptText="Jumlah">
+               <font>
+                  <Font name="Bernard MT Condensed" size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="Jumlah8" layoutX="705.0" layoutY="377.0" maxWidth="110.0" minWidth="74.0" prefHeight="40.0" prefWidth="74.0" promptText="Jumlah">
+               <font>
+                  <Font name="Bernard MT Condensed" size="18.0" />
+               </font>
+            </JFXTextField>
+            <ButtonBar layoutX="1230.0" layoutY="474.0" prefHeight="40.0" prefWidth="132.0" />
+            <Separator layoutX="14.0" layoutY="441.0" prefHeight="0.0" prefWidth="753.0" />
+            <Separator layoutX="24.0" layoutY="93.0" prefHeight="0.0" prefWidth="753.0" />
+            <JFXTextField fx:id="bayar" layoutX="986.0" layoutY="28.0" maxWidth="141.0" minWidth="124.0" prefHeight="45.0" prefWidth="132.0" promptText="Pembayaran" style="-fx-background-color: white;">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </JFXTextField>
+            <JFXButton fx:id="Cetak" layoutX="818.0" layoutY="402.0" onAction="#hasil" prefHeight="24.0" prefWidth="132.0" style="-fx-background-color: grey;" text="Cetak" textFill="WHITE" />
+            <JFXButton fx:id="Hapus" layoutX="980.0" layoutY="401.0" onAction="#hapus" prefHeight="24.0" prefWidth="132.0" style="-fx-background-color: grey;" text="Hapus" textFill="WHITE" />
+            <JFXTextArea fx:id="TotalHasil" layoutX="818.0" layoutY="79.0" maxWidth="408.0" minWidth="303.0" prefHeight="302.0" prefWidth="303.0" style="-fx-background-color: grey;">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextArea>
+         </children>
+      </Pane>
+      <JFXTextField fx:id="name" layoutX="814.0" layoutY="29.0" maxWidth="176.0" minWidth="132.0" prefHeight="48.0" prefWidth="153.0" promptText="Atas Nama" style="-fx-background-color: white;">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </JFXTextField>
+   </children>
+</AnchorPane>
